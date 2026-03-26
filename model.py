@@ -4,10 +4,28 @@ import pickle
 
 # Sample dataset
 data = {
-    "study_hours": [1, 2, 3, 4, 5, 6, 7, 8],
-    "attendance": [50, 55, 60, 65, 70, 80, 85, 90],
-    "previous_marks": [30, 35, 40, 45, 50, 60, 70, 80],
-    "result": ["Fail", "Fail", "Fail", "Pass", "Pass", "Pass", "Pass", "Pass"]
+    "study_hours": [
+        1,2,3,4,5,6,7,8,2,3,4,5,6,7,8,1,2,3,4,5,
+        6,7,8,1,2,3,4,5,6,7
+    ],
+    
+    "attendance": [
+        50,55,60,65,70,75,80,85,60,65,70,75,80,85,90,55,60,65,70,75,
+        80,85,90,50,55,60,65,70,75,80
+    ],
+    
+    "previous_marks": [
+        20,25,30,35,40,50,60,70,15,20,25,35,45,55,65,10,15,20,30,40,
+        50,60,70,5,10,20,30,40,50,60
+    ],
+    
+    "result": [
+        "Fail","Fail","Fail","Fail","Pass","Pass","Pass","Pass",
+        "Fail","Fail","Fail","Pass","Pass","Pass","Pass",
+        "Fail","Fail","Fail","Fail","Pass",
+        "Pass","Pass","Pass",
+        "Fail","Fail","Fail","Fail","Pass","Pass","Pass"
+    ]
 }
 
 df = pd.DataFrame(data)
