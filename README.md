@@ -20,8 +20,11 @@ This project predicts whether a student will pass or fail using Machine Learning
 ## 🚀 Features
 
 * Predict Pass/Fail
+* 
 * Confidence Score
+* 
 * Performance Suggestions
+* 
 * Simple User Interface
 
 ---
@@ -58,11 +61,16 @@ python -m streamlit run app.py
 ## 📂 Project Structure
 
 student-performance-ai/
+
 │
 ├── model.py
+
 ├── app.py
+
 ├── student_model.pkl
+
 ├── README.md
+
 └── report.pdf
 
 ---
