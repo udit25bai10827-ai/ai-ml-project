@@ -1,9 +1,12 @@
 # 🧠 AI Student Performance Prediction System
 
+
 ## 👨‍🎓 Student Details
 
 **Name:** UDIT SHARMA
+
 **Registration Number:** 25BAI10827
+
 **Course:** B.Tech CSE(AI,ML)
 
 ---
