@@ -38,6 +38,7 @@ pip install pandas scikit-learn streamlit
 ## ▶️ Usage
 
 python model.py
+
 python -m streamlit run app.py
 
 ---
